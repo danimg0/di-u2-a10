@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Canvas from "./Canvas";
+import Scoreboard from "./Scoreboard";
+import Canvas2 from "./Canvas2";
 
 export default function Home() {
   return (
@@ -20,8 +23,7 @@ export default function Home() {
       <br />
       <br />
       <h1>Ejercicio 3</h1>
-      
-
+      <Canvas2/>
     </div>
   );
 }
